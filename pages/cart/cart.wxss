@@ -1,0 +1,12 @@
+/* pages/cart/cart.wxss */
+.tupian{
+margin: 0;
+padding: 0;
+}
+.tupian-image{
+ width:320px;
+height:450px;
+display:inline-block;
+overflow:hidden;
+
+}

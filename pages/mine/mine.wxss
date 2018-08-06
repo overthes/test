@@ -1,0 +1,12 @@
+/* pages/mine/mine.wxss */
+.huiyuangou{
+margin: 0;
+padding: 0;
+}
+.huiyuangou-image{
+ width:320px;
+height:450px;
+display:inline-block;
+overflow:hidden;
+
+}

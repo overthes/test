@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/home/zhibo",
+    "pages/zhibo/zhibo",
+    "pages/home/remen",
+    "pages/home/zhuifan",
+    "pages/home/mengzhan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#fb7299",
+    "navigationBarBackgroundColor": "#fb7299",
+    "navigationBarTitleText": "bilibili",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#f0145a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/bottomNav/home.png",
+        "selectedIconPath": "images/bottomNav/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "images/bottomNav/classify.png",
+        "selectedIconPath": "images/bottomNav/classify_select.png",
+        "text": "频道"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "images/bottomNav/cart.png",
+        "selectedIconPath": "images/bottomNav/cart_select.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/bottomNav/mine.png",
+        "selectedIconPath": "images/bottomNav/mine_select.png",
+        "text": "会员购"
+      }
+    ]
+  }
+}

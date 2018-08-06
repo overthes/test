@@ -1,0 +1,4 @@
+<!--pages/cart/cart.wxml-->
+<view class="tupian">
+ <image class="tupian-image" src="/images/bottomNav/dongtai.png"></image>
+</view>

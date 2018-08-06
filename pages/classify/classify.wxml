@@ -1,0 +1,47 @@
+
+
+
+
+<view class="category">
+  <view class="category_item" wx:for="{{iconArray}}">
+    <view class="category_item_wrap">
+      <view class="icon_wrap">
+        <image src="{{item.iconUrl}}" class="index_icon"></image>
+      </view>
+      <view class="category_item_text">
+        <text>{{item.iconText}}</text>
+      </view>
+    </view>
+  </view>
+    </view>
+
+    <view class="categ">
+      <text class='wdpd'>我的频道</text>
+        <view class='fx'>
+        <text>还没有订阅频道，去发现一些吧~</text>
+         <button class='qkk'style="white" color="red">去看看
+    </button>
+    </view>
+    </view>
+    
+   <!--<view class="pindao">
+     <image class="pindao-image" src="/images/bottomNav/faxianpindao.png"></image>
+   </view>-->
+   <image class="pindao-image" src="/images/bottomNav/faxianpindao.png"></image>
+
+    <view class="category1">
+  <view class="category_item" wx:for="{{iconArray1}}">
+    <view class="category_item_wrap">
+      <view class="icon_wrap">
+        <image src="{{item.iconUrl}}" class="index_icon"></image>
+      </view>
+      <view class="category_item_text">
+        <text>{{item.iconText}}</text>
+      </view>
+    </view>
+  </view>
+    </view>
+
+
+    
+

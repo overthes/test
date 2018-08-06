@@ -1,0 +1,20 @@
+<view class="flex-bar main">
+    <view class="flex-bar-in">
+        <view class="li nav-item ">
+            <navigator  class="a" url="../home/zhibo">直播</navigator>
+        </view>
+        <view class="li nav-item ">
+            <navigator url="../home/home" class="a">推荐</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="../home/remen" class="a">热门</navigator>
+        </view>
+        <view class="li nav-item on">
+            <navigator url="" class="a">追番</navigator>
+        </view>
+        <view class="li nav-item">
+            <navigator url="../home/mengzhan" class="a">萌战</navigator>
+        </view>
+        
+    </view>
+  </view>

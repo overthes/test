@@ -1,0 +1,42 @@
+<!--pages/home/zhuifan.wxml-->
+<import src="../item.wxml"/>
+<include src="../headerzhuifan.wxml"/>
+ <!-- 番剧更新 begin -->
+  <view class="row-container">
+    <navigator class="header">
+      <view class="left">
+        <view class="bilibili-index-sprite bilibili-index-bangumi"></view>
+        <text>番剧推荐</text>
+      </view>
+      <view class="right hot">
+        <text>查看更多</text>
+        <view class="bilibili-index-sprite bilibili-index-arrow"></view>
+      </view>
+    </navigator>
+    <view class="content-wrapper">
+      <block wx:for="{{bangumiList}}" wx:key="avid">
+        <!-- 使用正在直播模板，传入当前循环对象item -->
+        <template is="jiefItem3" data="{{...item}}"/>
+      </block>
+    </view>
+  </view>
+  <!-- 番剧更新 end -->
+  <view class="row-container">
+    <navigator class="header">
+      <view class="left">
+        <view class="bilibili-index-sprite bilibili-index-bangumi"></view>
+        <text>国创推荐</text>
+      </view>
+      <view class="right hot">
+        <text>查看更多</text>
+        <view class="bilibili-index-sprite bilibili-index-arrow"></view>
+      </view>
+    </navigator>
+    <view class="content-wrapper">
+      <block wx:for="{{guochuangList}}" wx:key="avid">
+        <!-- 使用正在直播模板，传入当前循环对象item -->
+        <template is="jiefItem3" data="{{...item}}"/>
+      </block>
+    </view>
+  </view>
+  <!-- 番剧更新 end -->

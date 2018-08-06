@@ -1,0 +1,4 @@
+<!--pages/mine/mine.wxml-->
+<view class="huiyuangou">
+ <image class="huiyuangou-image" src="/images/bottomNav/huiyuangou.png"></image>
+</view>
